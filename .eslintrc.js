@@ -1,11 +1,9 @@
 module.exports = {
   root: true,
+  parser: 'vue-eslint-parser',
   env: {
     browser: true,
     node: true
-  },
-  parserOptions: {
-    parser: 'babel-eslint'
   },
   extends: [
     '@nuxtjs',
